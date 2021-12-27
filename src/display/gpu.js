@@ -6,7 +6,7 @@ var GPU = function(screen, cpu) {
     this.cpu = cpu;
     this.screen = screen;
 
-    this.LCDC= 0xFF40;
+    this.LCDC= 0xFF4e;
     this.STAT= 0xFF41;
     this.SCY = 0xFF42;
     this.SCX = 0xFF43;
